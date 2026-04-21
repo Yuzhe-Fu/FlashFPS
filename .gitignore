@@ -1,0 +1,59 @@
+# ===== Large data / artifacts (MUST exclude, > GitHub limits) =====
+FlashFPS-Openpoints/data/
+FlashFPS-Openpoints/log/
+FlashFPS-Openpoints/results/
+FlashFPS-Openpoints/slurm_logs/
+FlashFPS-Openpoints/wandb/
+**/checkpoint/
+**/pretrained/
+*.pth
+*.ckpt
+*.pt
+*.tar
+*.tar.gz
+*.zip
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ===== Build artifacts / C++/CUDA compiled outputs =====
+**/build/
+**/dist/
+**/*.egg-info/
+*.so
+*.o
+*.a
+*.pyd
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Editors / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Logs / tmp =====
+*.log
+*.tmp
+tmp/
+ExecuteCode.txt
+
+# ===== Env / secrets =====
+.env
+.env.*
+*.pem
+*.key
