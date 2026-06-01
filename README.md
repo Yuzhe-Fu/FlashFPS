@@ -48,18 +48,6 @@ Detailed setup and experiment instructions are in the sub-folders below:
 - [ ] Support **FlashFPS** performance breakdown.
 
 
-## Citation
-
-```tex
-@article{fu2026flashfps,
-  title={FlashFPS: Efficient Farthest Point Sampling for Large-Scale Point Clouds via Pruning and Caching},
-  author={Fu, Yuzhe and Ye, Hancheng and Guo, Cong and Zhang, Junyao and Wang, Qinsi and Lin, Yueqian and Zhou, Changchun and Li, Hai Helen and Chen, Yiran},
-  journal={arXiv preprint arXiv:2604.17720},
-  year={2026},
-  doi={10.48550/arXiv.2604.17720},
-}
-```
-
 <!-- ```tex
 @inproceedings{fu2026flashfps,
   title     = {FlashFPS: Efficient Farthest Point Sampling for Large-Scale Point Clouds via Pruning and Caching},
@@ -71,13 +59,25 @@ Detailed setup and experiment instructions are in the sub-folders below:
 ``` -->
 
 
-## Related Project — FractalCloud [![HPCA 2026](https://img.shields.io/badge/Accepted-HPCA%202026-red)](https://ieeexplore.ieee.org/document/11408589)
+## Related Project — FractalCloud [![HPCA 2026](https://img.shields.io/badge/IEEE-HPCA%202026-red)](https://ieeexplore.ieee.org/document/11408589)
 **FlashFPS** optimizes the Farthest Point Sampling, delivering an average **5.16× end-to-end speedup** on GPUs, and no hardware changes required. If you are interested in **full-stack hardware–software co-design** of point neural networks (PNNs), please check out our another work:
 
 **[FractalCloud: A Fractal-Inspired Architecture for Efficient Large-Scale Point Cloud Processing](https://ieeexplore.ieee.org/document/11408589)**, which achieves an average **21.7× speedup** on PNN inference through a co-designed accelerator.  
 Repository: [FractalCloud](https://github.com/Yuzhe-Fu/FractalCloud)
 > **Tip:** FlashFPS and FractalCloud share the **same environment**. If you've already set up one, the other runs out of the box ^_^
 
+
+## Citation
+
+```tex
+@article{fu2026flashfps,
+  title={FlashFPS: Efficient Farthest Point Sampling for Large-Scale Point Clouds via Pruning and Caching},
+  author={Fu, Yuzhe and Ye, Hancheng and Guo, Cong and Zhang, Junyao and Wang, Qinsi and Lin, Yueqian and Zhou, Changchun and Li, Hai Helen and Chen, Yiran},
+  journal={arXiv preprint arXiv:2604.17720},
+  year={2026},
+  doi={10.48550/arXiv.2604.17720},
+}
+```
 
 ## Acknowledgment
 
